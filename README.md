@@ -39,7 +39,7 @@ Will have future changes in the next days!
 
 
 
-# 📖 To Do List website using Webpack!  <a name="about-project"></a>
+# 📖 Leaderboard website using Webpack!  <a name="about-project"></a>
 
 > See who has the highest score of the day among your friends and other people !
 
