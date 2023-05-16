@@ -8,7 +8,21 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'output.bundle.js',
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        type: 'asset',
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+      },
+    ],
+  },
   plugins: [
-    new HtmlWebPackPlugin(),
+    new HtmlWebPackPlugin({
+      template: path.resolve(__dirname, 'src', 'index.html'),
+    }),
   ],
 };
