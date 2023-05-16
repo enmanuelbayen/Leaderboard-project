@@ -67,9 +67,9 @@ Will have future changes in the next days!
 
 ### Key Features <a name="key-features"></a>
 
-1 Basic wireframe Html for leaderboard.
-2 APIs for the score user input
-3 Basic styling for the project
+1 Basic wireframe Html for leaderboard. </br>
+2 APIs for the score user input </br>
+3 Basic styling for the project </br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
