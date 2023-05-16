@@ -41,7 +41,7 @@ Will have future changes in the next days!
 
 # 📖 Leaderboard website using Webpack!  <a name="about-project"></a>
 
-> See who has the highest score of the day among your friends and other people !
+ See who has the highest score of the day among your friends and other people !
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -56,8 +56,10 @@ Will have future changes in the next days!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
-    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li> 
+    <li><a href="https://webpack.js.org/">Webpack</a></li> 
+    <li><a href="https://www.w3schools.com/js/">Javascript</a></li> 
   </ul>
 </details>
 
@@ -65,11 +67,9 @@ Will have future changes in the next days!
 
 ### Key Features <a name="key-features"></a>
 
-1 Add HTML <br>
-2 Add CSS<br>
-3 Add JS<br> 
-4 Add webpack<br>
-5 add linters<br>
+1 Basic wireframe Html for leaderboard.
+2 APIs for the score user input
+3 Basic styling for the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,8 +81,6 @@ Will have future changes in the next days!
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> This is the first step in the creation of my project so there is not much yet, but it will grow!
 
 To get a local copy up and running, follow these steps.
 
