@@ -1,5 +1,5 @@
-const HtmlWebPackPlugin = require('html-webpack-plugin');
-const path = require('path');
+const HtmlWebPackPlugin = import('html-webpack-plugin');
+const path = import('path');
 
 module.exports = {
   mode: 'development',
