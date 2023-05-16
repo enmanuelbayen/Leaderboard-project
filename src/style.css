@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #1f2328;
+  }
+
+.hide {
+    display: none;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+
+  .grid {
+    display: grid;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* landing page */
+  .home-title {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 5%;
+  }
+
+  .scores-section{
+    grid-template-columns: 1fr 1fr;
+    padding: 3% 10%;
+    gap: 5%;
+  }
+
+  .scores-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .recentScore-title{
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .button {
+    background: transparent;
+    border: 3.5px solid #1f2328;
+    padding: 0 .4rem;
+  }
+
+  #addBttn{
+    align-self: flex-end;
+  }
+
+  /* score board */
+
+  .recentScores{
+    border: 2px solid #1f2328;
+    width: 33vw;
+  }
+
+  .score-list {
+    padding: 5%;
+  }
+
+  .score-list:nth-child(odd) {
+    background-color: lightgray;
+}
+
+  /* add score */
+
+  .addScore-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+.addForm {
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.addForm input {
+    border: 3.5px solid #1f2328;
+    padding: .2rem .4rem;
+}
