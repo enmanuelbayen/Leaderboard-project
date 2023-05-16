@@ -1,6 +1,6 @@
-# To-Do-List-Project
+# Leaderboard!
 
-First steps to creating a page week that you can use for create your private TO DO LIST shores and never miss what to do in your day!
+Here you can add your name and score of the day and see the redemption of other players to compare yours!
 
 Will have future changes in the next days! 
 
@@ -9,7 +9,7 @@ Will have future changes in the next days!
 
 <div align="center">
 
-  <h3 id="title"><b>To Do List!</b></h3>
+  <h3 id="title"><b>Leaderboard!</b></h3>
 
 </div>
 
@@ -41,7 +41,7 @@ Will have future changes in the next days!
 
 # 📖 To Do List website using Webpack!  <a name="about-project"></a>
 
-> Here you can save the thing you need get done on your day!
+> See who has the highest score of the day among your friends and other people !
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -75,7 +75,7 @@ Will have future changes in the next days!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<p> Checkout my page <a href="https://enmanuelbayen.github.io/To-Do-List-Project/dist/" target="_blank" rel="noopener noreferrer"> here!</a> </p>
+<p> coming soon.. </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
