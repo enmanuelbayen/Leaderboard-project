@@ -1,1 +1,25 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"><title>Games leaderboard</title><script defer="defer" src="output.bundle.js"></script></head><body><header class="header"><h1 class="home-title">Leaderboards</h1></header><section class="scores-section grid"><div class="scores-container flex"><div class="recentScore-title flex"><h2 class="subtitle">Recent scores</h2><button class="button" id="refreshBttn">Refresh</button></div><ul class="recentScores"><li class="score-list"><span>Name: </span><span>100</span></li><li class="score-list"><span>Name: </span><span>20</span></li></ul></div><div class="addScore-container flex"><h2 class="subtitle">Add your score</h2><form action="" method="post" class="addForm flex"><label for=""><input type="name" placeholder="Your name" required></label> <label for=""><input placeholder="Your score" required></label> <input class="button" id="addBttn" type="button" value="Submit"></form></div></section></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Do List - Get it done!</title>
+<script defer src="index.js"></script></head>
+<body>
+    <section class="list-container block">
+        <div class="subtitle flex">
+          <h2>Today's To Do</h2>
+          <img class="icon-reload pointer" id="icon-reload-id" alt="reload icon">
+        </div>
+        <form class="add-form flex">
+            <label for="newList-item">          
+                <input class="add-item" name="newList-item" type="text" placeholder="Add to your list..." required/>
+            </label>
+          <img id="icon-send-id" class="icon-send pointer" alt="Enter icon">
+        </form>
+        <ul class="list-holder" id="list-holder-id"></ul>
+        <button class="clear-bttn pointer">Clear all completed</button>
+      </section>
+</body>
+</html>
