@@ -1,0 +1,30 @@
+/*
+* To register a new game change the extensio of this file to '.js' and call
+* registerNewGame() in your index.js before everything else runs.
+*/
+
+export const registerNewGame = () => {
+  // Define the data to be sent in the request body
+  const newGame = {
+    name: 'Log Horizon',
+  };
+
+  // Define the request options
+  const options = {
+    method: 'POST',
+    body: JSON.stringify(newGame),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  };
+
+  // Send the request to the API endpoint
+  fetch(API_ENDPOINT, options)
+    .then((response) => response.json())
+    .then((newGame) => {
+      // Extract the game ID from the response
+      return newGame.result.split(': ')[1];
+    });
+};
+
+Thanks for this advice from coding partner Junior Garcia!!
