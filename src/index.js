@@ -1,4 +1,3 @@
-
 import './style.css';
 import { getScores, addScore } from './modules/fetch.js';
 import renderScores from './modules/render.js';
@@ -11,16 +10,16 @@ const inputScore = document.getElementById('userScore');
 let newList;
 
 const renderListOnload = async () => {
-   newList = await getScores();
+  newList = await getScores();
   renderScores(newList);
 };
 
 window.onload = renderListOnload();
 
 refresh.addEventListener('click', async () => {
-     newList = await getScores();
-    renderScores(newList);
-  });  
+  newList = await getScores();
+  renderScores(newList);
+});
 
 addForm.addEventListener('click', (e) => {
   e.preventDefault();
@@ -28,5 +27,3 @@ addForm.addEventListener('click', (e) => {
   inputName.value = '';
   inputScore.value = '';
 });
-
-  

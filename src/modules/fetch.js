@@ -8,8 +8,8 @@ const getScores = async () => {
 
 const addScore = async (user, score) => {
   const newScore = {
-    "user": user,
-	"score": score,
+    user,
+    score,
   };
   const response = await fetch(API, {
     method: 'POST',
@@ -18,7 +18,6 @@ const addScore = async (user, score) => {
     },
     body: JSON.stringify(newScore),
   });
-  console.log(newScore);
   return response.json();
 };
 
