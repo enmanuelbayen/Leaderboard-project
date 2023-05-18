@@ -26,3 +26,5 @@ export const registerNewGame = () => {
       return newGame.result.split(': ')[1];
     });
 };
+
+Thanks for this advice from coding partner Junior Garcia!!
