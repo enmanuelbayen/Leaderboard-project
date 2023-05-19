@@ -75,7 +75,7 @@ Will have future changes in the next days!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<p> coming soon.. </p>
+You can see the website [here!](https://enmanuelbayen.github.io/Leaderboard-project/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
