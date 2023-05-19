@@ -51,7 +51,7 @@ a {
   font-size: 3rem;
   font-weight: 700;
   padding: 5%;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
 }
 
 .scores-section {
@@ -82,14 +82,15 @@ a {
   border-radius: 0.3em;
   padding: 0.25em 0.4em;
   cursor: pointer;
-  letter-spacing: .14em;
-  text-shadow: 0 0 .125em hsl(0 0% 100% / 0.3), 0 0 .12em var(--clr-neon);
-  box-shadow: inset 0 0 .7em 0 var(--clr-neon), 0 0 .7em 0 var(--clr-neon) ;
+  letter-spacing: 0.14em;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.12em var(--clr-neon);
+  box-shadow: inset 0 0 0.7em 0 var(--clr-neon), 0 0 0.7em 0 var(--clr-neon);
   transition: background-color 100ms linear;
 }
 
 .button::after {
   content: "";
+
   /* position: absolute;
   top: 0;
   bottom: 0;
