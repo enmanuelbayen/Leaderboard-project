@@ -75,7 +75,7 @@ Will have future changes in the next days!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<p> coming soon.. </p>
+You can see the website [here!](https://enmanuelbayen.github.io/Leaderboard-project/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +159,7 @@ I use Githud pages for the deployment of this web page.
 
 Contributions, issues, and feature requests are welcome! Will help me a lot to improve my coding skills.
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/enmanuelbayen/Leaderboard-project/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
